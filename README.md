@@ -1,16 +1,22 @@
 ### Hi there 👋
 
-<!--
-**krystinli/krystinli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```py
+from typing import List
 
-Here are some ideas to get you started:
+class Krystin:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.username: str = "krystinli"
+        self.name: str = "Krystin Li"
+        self.location: str = "Toronto, ON"
+        self.languages: List[str] = ["English", "Mandarin", "Cantonese", "Python"]
+        self.hobbies: List[str] = ["🏃‍♀️", "🏓", "🧑‍🍳", "🛫", "🖼️", "🧋"]
+        self.workplace: str = "Meta 🪐" :
+        self.job: str = "Data Scientist"
+
+    def __str__(self):
+        return self.name
+
+if __name__ == "__main__":
+    me = Krystin()
+```
