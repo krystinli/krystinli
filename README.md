@@ -13,6 +13,7 @@ class Krystin:
         self.hobbies: List[str] = ["🏃‍♀️", "🏓", "🧑‍🍳", "🛫", "🖼️", "🧋"]
         self.workplace: str = "Meta 🪐" :
         self.job: str = "Data Scientist"
+        self.contact: str = "likrystin@gmail.com"
 
     def __str__(self):
         return self.name
