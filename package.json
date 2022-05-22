@@ -1,0 +1,22 @@
+{
+  "name": "krystinli",
+  "version": "1.0.0",
+  "description": "A dynamic github profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystinli/krystinli.git"
+  },
+  "author": "krystinli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krystinli/krystinli/issues"
+  },
+  "homepage": "https://github.com/krystinli/krystinli#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
